@@ -1,0 +1,15 @@
+<resources>
+    <string name="facebook_app_id" translatable="false">265148661105173</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb265148661105173</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN" translatable="false">2777ab1031d820c5dc82a9e5b3aac4c8</string>
+    <string name="choice_country">Country</string>
+    <string name="choice_school">School</string>
+    <string name="choice_class">Class</string>
+    <string name="button_next">Next</string>
+    <string name="button_upload_photo">Upload photo</string>
+    <string name="Alert_Add_lecture">Add new lecture category</string>
+    <string name="app_name">LectShares</string>
+
+
+
+</resources>

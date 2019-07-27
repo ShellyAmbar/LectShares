@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "880860763308",
+    "firebase_url": "https://lectshares.firebaseio.com",
+    "project_id": "lectshares",
+    "storage_bucket": "lectshares.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880860763308:android:955e6a68f5588769",
+        "android_client_info": {
+          "package_name": "com.shellyambar.ambar.wonderworld"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "880860763308-qhhqfv20doh21ihko334nvp96g29m151.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shellyambar.ambar.wonderworld",
+            "certificate_hash": "da65ecd47f28421ec213052acf9c37ee3d744b9d"
+          }
+        },
+        {
+          "client_id": "880860763308-elor7tobisnk5pa9d6hs2f3mo6ic2j5j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDq9j9W26SUcIbrAo6Eipl87Y9sqWz9jxo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "880860763308-elor7tobisnk5pa9d6hs2f3mo6ic2j5j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

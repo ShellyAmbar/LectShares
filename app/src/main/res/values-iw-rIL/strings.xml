@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LectShares</string>
+    <string name="choice_country">מדינה</string>
+    <string name="choice_school">בית ספר</string>
+    <string name="choice_class">כיתה</string>
+    <string name="button_next">הבא</string>
+    <string name="button_upload_photo">העלאת תמונה</string>
+    <string name="Alert_Add_lecture">העלאת תחום חדש</string>
+</resources>

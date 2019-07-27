@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/board_tapet"
+
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
+    tools:context=".EnterActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="410dp"
+            android:layout_height="101dp"
+            android:src="@drawable/folder_music" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="123dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/logolecture" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal">
+
+        <AutoCompleteTextView
+            android:id="@+id/new_country_provided"
+            android:layout_width="178dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_horizontal"
+            android:hint="@string/choice_country"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="22dp" />
+
+        <ImageView
+            android:id="@+id/Arrow_down_country"
+            android:layout_width="35dp"
+            android:layout_height="41dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/ic_arrow_down" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal">
+
+        <AutoCompleteTextView
+            android:id="@+id/new_school_provided"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_horizontal"
+            android:hint="@string/choice_school"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="22dp" />
+
+        <ImageView
+            android:id="@+id/Arrow_down_school"
+            android:layout_width="35dp"
+            android:layout_height="41dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/ic_arrow_down" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal">
+
+        <AutoCompleteTextView
+            android:id="@+id/new_class_provided"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_horizontal"
+            android:hint="@string/choice_class"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="22dp" />
+
+        <ImageView
+            android:id="@+id/Arrow_down_class"
+            android:layout_width="35dp"
+            android:layout_height="41dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/ic_arrow_down" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <Button
+
+            android:id="@+id/addNewSection"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/plus"
+
+            />
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/login_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20dp" />
+
+    </LinearLayout>
+
+
+    <Button
+
+        android:id="@+id/nextBTN"
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_background"
+        android:text="@string/button_next"
+        android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+        android:textColorLink="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
